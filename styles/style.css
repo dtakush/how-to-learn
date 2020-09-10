@@ -56,6 +56,8 @@
   font-size: 18px;
   line-height: 25px;
   z-index: 2;
+  color: #000000;
+  text-decoration: none;
 }
 
 .header__link {
@@ -87,7 +89,7 @@
 
 
 /* блок description */
-.description__two-columns {
+.two-columns {
   margin: 100px auto;
   width: 80%;
   min-width: 784px;
@@ -175,13 +177,14 @@
   font-size: 24px;
   line-height: 34px;
   font-weight: bolder;
+  margin: 0;
 }
 
 .table__text {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
-  margin-top: 20px;
+  margin: 20px 0 0;
 }
 
 
@@ -304,7 +307,7 @@
   min-height: 250px;
 }
 
-.footer__column__content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

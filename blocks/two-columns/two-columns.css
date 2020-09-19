@@ -1,0 +1,9 @@
+/* блок description */
+.two-columns {
+  margin: 100px auto;
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
